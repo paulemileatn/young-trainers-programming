@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young Trainers Programming - test</title>
+    <meta name="description" content="Programme de coaching fitness d'élite pour transformer votre corps et votre esprit. Méthodologie scientifique ayant aidé plus de 10 000 clients dans le monde.">
+    <meta name="keywords" content="coaching fitness, transformation physique, programme entrainement, nutrition personnalisée, coach sportif, HIIT">
+    <meta name="author" content="Young Trainers Programming">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Young Trainers Programming - Transformation Corps et Esprit">
+    <meta property="og:description" content="Programme de coaching fitness d'élite pour transformer votre corps et votre esprit avec des résultats garantis.">
+    <meta property="og:image" content="assets/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://youngtrainers.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://youngtrainers.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    </head>
+    <body>
+    <!-- Éléments de fond -->
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+        <div class="blob blob-5"></div>
+        <div class="noise"></div>
+        <div class="particles-container" id="particles-js"></div>
+        <div class="light-effects">
+            <div class="light light-1"></div>
+            <div class="light light-2"></div>
+            <div class="light light-3"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar glass">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Young Trainers Programming Logo - Coaching Fitness d'élite">
+            </div>
+            <nav aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#accueil" class="active">Accueil</a></li>
+                    <li><a href="#avantages">Avantages</a></li>
+                    <li><a href="#entrainement">Entrainement</a></li>
+                    <li><a href="#programme">Programme</a></li>
+                    <li><a href="#temoignages">Témoignages</a></li>
+                </ul>
+            </nav>
+            <a href="https://checkout.stripe.com/pay/dummy-payment" class="btn-primary">Commencer</a>
+        </div>
+    </header>
+
+    <!-- Section Hero -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Young Trainers Programming </h1>
+                    <h2>Transformez votre <span class="gradient-text">Corps</span> et votre <span class="gradient-text">Esprit</span></h2>
+                    <p>Un coaching d'élite pour ceux qui exigent des résultats exceptionnels. Notre méthodologie basée sur la science a transformé la vie de plus de 10 000 clients à travers le monde.</p>
+                    
+                    <div class="cta-buttons">
+                        <a href="https://checkout.stripe.com/pay/dummy-payment" class="btn-primary">Commencer Maintenant <i class="fas fa-arrow-right"></i></a>
+                        <a href="#programme" class="btn-secondary">En Savoir Plus</a>
+                    </div>
+                    
+                    <div class="social-proof">
+                        <div class="avatars">
+                            <img src="assets/avatar_1.jpg" alt="Client satisfait Young Trainers - Sophie">
+                            <img src="assets/avatar_2.jpg" alt="Client satisfait Young Trainers - Thomas">
+                            <img src="assets/avatar_3.jpg" alt="Client satisfait Young Trainers - Marie">
+                            <img src="assets/avatar_4.jpg" alt="Client satisfait Young Trainers - Laurent">
+                        </div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>Plus de 200 clients satisfaits</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-video glass">
+                    <div class="video-preview">
+                        <img src="assets/team_1.jpg" alt="Formation fitness professionnelle - Séance d'entraînement Young Trainers">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <a href="https://checkout.stripe.com/pay/dummy-payment" class="btn-primary btn-full">Acheter la Formation <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Logo Section -->
+    <section class="centered-logo-section">
+        <div class="container">
+            <div class="centered-logo">
+                <img src="assets/logo.png" alt="Young Trainers Programming - Expert en coaching sportif et nutrition">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Avantages -->
+    <section id="avantages" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Transformez Votre Parcours Fitness</h2>
+                <p>Notre programme de coaching répond aux difficultés courantes et apporte les résultats que vous recherchez.</p>
+            </div>
+            
+            <div class="benefits-container">
+                <div class="benefits-card glass">
+                    <h3 class="gradient-text">Avec notre Formation</h3>
+                    <ul class="benefits-list">
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <p>Plan nutritionnel personnalisé basé sur votre morphologie</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <p>Sessions de coaching individuelles chaque semaine</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <p>Accès à notre communauté privée de personnes partageant les mêmes objectifs</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <p>Programmes d'entraînement personnalisés selon vos objectifs</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <p>Support illimité par messagerie avec des coachs certifiés</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <p>Application de suivi de progression avec analyses basées sur l'IA</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="benefits-card glass">
+                    <h3>Sans Accompagnement Adapté</h3>
+                    <ul class="pain-points-list">
+                        <li>
+                            <i class="fas fa-times"></i>
+                            <p>Plans d'entraînement génériques qui ne fonctionnent pas pour votre corps</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-times"></i>
+                            <p>Essayer différents régimes sans résultats durables</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-times"></i>
+                            <p>Se sentir perdu et démotivé dans votre parcours fitness</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-times"></i>
+                            <p>Gaspiller de l'argent dans des suppléments inefficaces</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-times"></i>
+                            <p>Atteindre des plateaux sans savoir comment les dépasser</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-times"></i>
+                            <p>Difficulté à maintenir la constance et la responsabilité</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <p>Rejoignez plus de 300 clients satisfaits qui ont transformé leur vie grâce à notre méthodologie éprouvée.</p>
+                <a href="https://checkout.stripe.com/pay/dummy-payment" class="btn-primary">Faites le Premier Pas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Entrainement -->
+    <section id="entrainement" class="training">
+        <div class="container">
+            <div class="section-header">
+                <h2>Un Entraînement d'Excellence</h2>
+                <p>Notre programme de formation intensive est conçu pour vous pousser au-delà de vos limites et vous aider à atteindre votre plein potentiel.</p>
+            </div>
+            
+            <div class="training-cards">
+                <div class="training-card glass">
+                    <div class="card-image">
+                        <img src="assets/team_1.jpg" alt="Entraînement HIIT - Programme intensif Young Trainers">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Entraînement HIIT</h3>
+                        <p>Maximisez vos résultats avec notre programme d'entraînement à haute intensité</p>
+                    </div>
+                </div>
+                
+                <div class="training-card glass">
+                    <div class="card-image">
+                        <img src="assets/team_3.jpg" alt="Coaching personnalisé - Accompagnement fitness sur mesure">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Coaching Personnalisé</h3>
+                        <p>Nos coachs experts vous guident à chaque étape de votre programme</p>
+                    </div>
+                </div>
+                
+                <div class="training-card glass">
+                    <div class="card-image">
+                        <img src="assets/team_2.jpg" alt="Exercices Ciblés - Développement musculaire personnalisé">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Exercices Ciblés</h3>
+                        <p>Des exercices spécifiques pour atteindre vos objectifs fitness personnels</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <p>Notre méthodologie d'entraînement éprouvée combine les dernières recherches en science du sport avec une approche pratique qui donne des résultats visibles.</p>
+                <a href="#programme" class="btn-primary">En Savoir Plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section CTA -->
+    <section id="commencer" class="cta-section glass">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Prêt à Transformer Votre Vie?</h2>
+                <p>Rejoignez notre programme dès aujourd'hui et commencez votre voyage vers une meilleure version de vous-même.</p>
+                <a href="https://checkout.stripe.com/pay/dummy-payment" class="btn-primary btn-large">Commencer Maintenant <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Programme -->
+    <section id="programme" class="program">
+        <div class="container">
+            <div class="section-header">
+                <h2>Notre Programme Complet</h2>
+                <p>Découvrez les modules de notre formation conçus pour vous offrir des résultats optimaux.</p>
+            </div>
+            
+            <div class="program-modules">
+                <div class="module glass">
+                    <div class="module-number">01</div>
+                    <h3>Évaluation Initiale</h3>
+                    <p>Analyse complète de votre condition physique, habitudes alimentaires et objectifs personnels.</p>
+                    <ul class="module-details">
+                        <li><i class="fas fa-check-circle"></i> Bilan complet de votre composition corporelle</li>
+                        <li><i class="fas fa-check-circle"></i> Évaluation de votre niveau de fitness actuel</li>
+                        <li><i class="fas fa-check-circle"></i> Identification de vos points forts et axes d'amélioration</li>
+                        <li><i class="fas fa-check-circle"></i> Définition d'objectifs SMART personnalisés</li>
+                    </ul>
+                </div>
+                
+                <div class="module glass">
+                    <div class="module-number">02</div>
+                    <h3>Plan Nutritionnel</h3>
+                    <p>Stratégie alimentaire personnalisée basée sur votre métabolisme et vos objectifs spécifiques.</p>
+                    <ul class="module-details">
+                        <li><i class="fas fa-check-circle"></i> Calcul précis de vos besoins caloriques quotidiens</li>
+                        <li><i class="fas fa-check-circle"></i> Répartition optimale des macronutriments</li>
+                        <li><i class="fas fa-check-circle"></i> Planification des repas adaptée à votre style de vie</li>
+                        <li><i class="fas fa-check-circle"></i> Conseils pour gérer les repas extérieurs et occasions spéciales</li>
+                    </ul>
+                </div>
+                
+                <div class="module glass">
+                    <div class="module-number">03</div>
+                    <h3>Programme d'Entraînement</h3>
+                    <p>Sessions d'exercices optimisées pour maximiser les résultats en fonction de votre morphologie.</p>
+                    <ul class="module-details">
+                        <li><i class="fas fa-check-circle"></i> Programmes spécifiques selon votre somatotype</li>
+                        <li><i class="fas fa-check-circle"></i> Combinaison efficace d'exercices cardio et musculation</li>
+                        <li><i class="fas fa-check-circle"></i> Séances HIIT pour maximiser la combustion des graisses</li>
+                        <li><i class="fas fa-check-circle"></i> Progressions planifiées pour éviter les plateaux</li>
+                    </ul>
+                </div>
+                
+                <div class="module glass">
+                    <div class="module-number">04</div>
+                    <h3>Suivi et Ajustements</h3>
+                    <p>Monitoring régulier de vos progrès avec ajustements continus pour assurer des résultats optimaux.</p>
+                    <ul class="module-details">
+                        <li><i class="fas fa-check-circle"></i> Sessions hebdomadaires de coaching par vidéoconférence</li>
+                        <li><i class="fas fa-check-circle"></i> Analyse détaillée de votre progression</li>
+                        <li><i class="fas fa-check-circle"></i> Ajustements personnalisés de votre programme</li>
+                        <li><i class="fas fa-check-circle"></i> Stratégies pour surmonter les obstacles rencontrés</li>
+                    </ul>
+                </div>
+                
+                <div class="module glass">
+                    <div class="module-number">05</div>
+                    <h3>Support Communautaire</h3>
+                    <p>Accès à notre communauté exclusive où vous pourrez partager et vous inspirer mutuellement.</p>
+                    <ul class="module-details">
+                        <li><i class="fas fa-check-circle"></i> Groupe privé avec d'autres participants motivés</li>
+                        <li><i class="fas fa-check-circle"></i> Défis hebdomadaires stimulants et motivants</li>
+                        <li><i class="fas fa-check-circle"></i> Partage d'expériences et conseils entre membres</li>
+                        <li><i class="fas fa-check-circle"></i> Live sessions exclusives avec nos experts</li>
+                    </ul>
+                </div>
+                
+                <div class="module glass">
+                    <div class="module-number">06</div>
+                    <h3>Maintien des Résultats</h3>
+                    <p>Stratégies éprouvées pour conserver vos résultats sur le long terme et continuer à progresser.</p>
+                    <ul class="module-details">
+                        <li><i class="fas fa-check-circle"></i> Plan de transition post-programme</li>
+                        <li><i class="fas fa-check-circle"></i> Techniques d'auto-régulation efficaces</li>
+                        <li><i class="fas fa-check-circle"></i> Stratégies de gestion du stress et du sommeil</li>
+                        <li><i class="fas fa-check-circle"></i> Plan d'action pour continuer votre progression</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <a href="https://checkout.stripe.com/pay/dummy-payment" class="btn-primary">Rejoindre le Programme</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section id="temoignages" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ce que Disent Nos Clients</h2>
+                <p>Découvrez les transformations réelles de personnes qui ont suivi notre programme.</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial glass">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Ce programme a complètement changé ma vie. J'ai perdu 15kg en 3 mois et j'ai retrouvé une énergie que je n'avais pas depuis des années. Les coachs sont incroyables et le support est constant."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/avatar_1.jpg" alt="Sophie M. - Témoignage transformation physique">
+                            <div>
+                                <h4>Sophie M.</h4>
+                                <p>Cliente depuis 8 mois</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial glass">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"J'ai essayé plusieurs programmes avant, mais aucun n'a fonctionné comme celui-ci. L'approche personnalisée fait toute la différence. J'ai gagné en masse musculaire tout en perdant de la graisse."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/avatar_2.jpg" alt="Thomas L. - Résultats programme musculation">
+                            <div>
+                                <h4>Thomas L.</h4>
+                                <p>Client depuis 1 an</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial glass">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"La communauté et le suivi régulier m'ont aidé à rester motivée. Les résultats sont visibles et durables. Je recommande ce programme à tous ceux qui veulent vraiment changer."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/avatar_3.jpg" alt="Marie T. - Transformation corps et esprit">
+                            <div>
+                                <h4>Marie T.</h4>
+                                <p>Cliente depuis 6 mois</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top glass">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <img src="assets/logo.png" alt="Young Trainers Programming Logo">
+                        <p>Transformez votre corps et votre esprit avec notre coaching d'élite.</p>
+                        <div class="footer-social">
+                            <a href="https://facebook.com/votrepage" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/votrecompte" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://youtube.com/votrechaine" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-nav">
+                        <h4>Navigation</h4>
+                        <ul class="footer-links">
+                            <li><a href="#accueil"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                            <li><a href="#avantages"><i class="fas fa-chevron-right"></i> Avantages</a></li>
+                            <li><a href="#entrainement"><i class="fas fa-chevron-right"></i> Entrainement</a></li>
+                            <li><a href="#programme"><i class="fas fa-chevron-right"></i> Programme</a></li>
+                            <li><a href="#temoignages"><i class="fas fa-chevron-right"></i> Témoignages</a></li>
+                            <li><a href="https://checkout.stripe.com/pay/dummy-payment"><i class="fas fa-chevron-right"></i> Commencer</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <h4>Contact</h4>
+                        <ul class="contact-list">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Avenue du Sport, 75001 Paris</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+33 6 12 34 56 78</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>contact@youngtrainers.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Recevez nos conseils fitness et offres exclusives</p>
+                        <form class="newsletter-form" action="https://formspree.io/f/xzzeyvqj" method="POST" target="_blank">
+                            <input type="email" name="email" placeholder="Votre email" required>
+                            <button type="submit" class="btn-submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright">&copy; 2025 Young Trainers Programming</p>
+                    <div class="footer-divider"></div>
+                    <p class="footer-tagline">Conçu avec <i class="fas fa-heart"></i> pour votre réussite</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Configuration des particules pour un effet luxueux
+            particlesJS("particles-js", {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 1500
+                        }
+                    },
+                    "color": {
+                        "value": ["#ffffff", "#EF7447"]
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.15,
+                        "random": true,
+                        "anim": {
+                            "enable": true,
+                            "speed": 0.2,
+                            "opacity_min": 0.05,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 2,
+                        "random": true,
+                        "anim": {
+                            "enable": true,
+                            "speed": 2,
+                            "size_min": 0.5,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.05,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 1,
+                        "direction": "none",
+                        "random": true,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": true,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "bubble"
+                        },
+                        "onclick": {
+                            "enable": false
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "bubble": {
+                            "distance": 200,
+                            "size": 3,
+                            "duration": 2,
+                            "opacity": 0.2,
+                            "speed": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+
+            // Animation des effets lumineux
+            animateLights();
+        });
+
+        function animateLights() {
+            const lights = document.querySelectorAll('.light');
+            
+            lights.forEach((light, index) => {
+                // Position aléatoire initiale
+                light.style.left = `${Math.random() * 100}%`;
+                light.style.top = `${Math.random() * 100}%`;
+                
+                // Animation personnalisée pour chaque lumière
+                setInterval(() => {
+                    const newX = Math.random() * 100;
+                    const newY = Math.random() * 100;
+                    
+                    light.style.transition = `all ${10 + index * 5}s cubic-bezier(0.4, 0, 0.2, 1)`;
+                    light.style.left = `${newX}%`;
+                    light.style.top = `${newY}%`;
+                }, (15 + index * 5) * 1000);
+            });
+        }
+    </script>
+    <!-- Schema.org markup pour meilleur référencement -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsClub",
+      "name": "Young Trainers Programming",
+      "description": "Programme de coaching fitness d'élite pour transformer votre corps et votre esprit. Méthodologie scientifique ayant aidé plus de 10 000 clients dans le monde.",
+      "image": "assets/logo.png",
+      "telephone": "+33612345678",
+      "email": "contact@youngtrainers.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Avenue du Sport",
+        "addressLocality": "Paris",
+        "postalCode": "75001",
+        "addressCountry": "FR"
+      },
+      "sameAs": [
+        "https://facebook.com/votrepage",
+        "https://instagram.com/votrecompte",
+        "https://youtube.com/votrechaine"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "name": "Programme de coaching fitness personnalisé",
+        "description": "Un coaching d'élite pour ceux qui exigent des résultats exceptionnels",
+        "url": "https://youngtrainers.com"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "200"
+      }
+    }
+    </script>
+</body>
+</html> 

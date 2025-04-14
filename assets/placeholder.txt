@@ -1,0 +1,14 @@
+Pour compléter votre site, veuillez ajouter les images suivantes dans ce dossier :
+
+1. logo.png - Logo de Young Trainers
+2. team_1.jpg, team_2.jpg, team_3.jpg - Photos d'entraînement et de coachs
+3. avatar_1.jpg, avatar_2.jpg, avatar_3.jpg, avatar_4.jpg - Photos des clients pour les témoignages
+4. noise.png - Texture de bruit pour le fond
+
+Ces fichiers sont référencés dans le HTML et le CSS. Si vous n'avez pas ces images spécifiques, vous pouvez les remplacer par des images similaires de votre choix.
+
+Exemple de remplacement:
+- Pour les avatars : utilisez des photos portrait carrées
+- Pour les images team_* : utilisez des photos d'entraînement sportif en grand format
+- Pour le logo : créez un logo simple avec le nom "Young Trainers"
+- Pour le noise.png : utilisez une texture de bruit subtile pour ajouter de la profondeur au design 
