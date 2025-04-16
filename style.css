@@ -218,6 +218,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+.small-h2 {
+  font-size: 2rem;
+}
+
 h3 {
   font-size: 1.75rem;
 }
@@ -525,10 +529,11 @@ nav a.active::after {
 }
 
 .key-points {
-  list-style: none;
+  /* list-style: none; */
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-left: 14px;
 }
 
 .hero-video {
@@ -694,7 +699,7 @@ nav a.active::after {
   height: 24px;
   border-radius: 50%;
   margin-right: 12px;
-  margin-top: 4px;
+  /* margin-top: 4px; */
   flex-shrink: 0;
 }
 
@@ -1379,6 +1384,10 @@ nav a.active::after {
     font-size: 2rem;
   }
 
+  .small-h2 {
+    font-size: 1.6rem;
+  }
+
   .hero-content {
     flex-direction: column;
   }
@@ -1424,6 +1433,10 @@ nav a.active::after {
 
   h2 {
     font-size: 1.8rem;
+  }
+
+  .small-h2 {
+    font-size: 1.4rem;
   }
 
   .training-cards {
